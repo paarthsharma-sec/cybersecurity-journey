@@ -9,7 +9,7 @@ This repository documents my complete cybersecurity learning journey
 | Resource | Status | Progress |
 |----------|--------|----------|
 | Google Cybersecurity Certificate | 🔄 In Progress | Course 6/9 |
-| TryHackMe Pre-Security | 🔄 In Progress | Ongoing |
+TryHackMe Pre-Security | ✅ Completed 
 | CS50 Cybersecurity — Harvard | 📌 Upcoming | — |
 
 
