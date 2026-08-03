@@ -1,29 +1,31 @@
-
 # Cybersecurity Journey 🔐
 
 ## About
-This repository documents my complete cybersecurity learning journey 
-— notes, writeups, projects and progress tracking.
+This repository documents my complete cybersecurity learning 
+journey — notes, writeups, projects and progress tracking.
 
-## 📚 Current Learning
+## 📚 Learning Progress
 | Resource | Status | Progress |
 |----------|--------|----------|
 | Google Cybersecurity Certificate | ✅ Completed | 9/9 |
-TryHackMe Pre-Security | ✅ Completed 
-| CS50 Cybersecurity — Harvard | 📌 Upcoming | — |
-
+| TryHackMe Pre-Security | ✅ Completed | Free Tier |
+| OverTheWire Bandit | 🔄 In Progress | Level 1 |
+| PicoCTF | 📌 Upcoming | — |
+| eJPT | 📌 Upcoming | 2027 |
 
 ## 🗂️ Repository Structure
-- 📁 `google-cert-notes/` — Notes from Google Cybersecurity Certificate
-- 📁 `tryhackme-writeups/` — TryHackMe room writeups
-- 📁 `ctf-writeups/` — CTF challenge solutions
+- 📁 `overthewire-notes/` — OverTheWire Bandit writeups
+- 📁 `picoctf-writeups/` — PicoCTF challenge solutions
+- 📁 `dsa-solutions/` — DSA problem solutions and notes
 - 📁 `python-scripts/` — Security automation scripts
 - 📁 `resources/` — Useful links and references
 
 ## 🎯 Goals
-- Complete Google Cybersecurity Certificate
-- Finish TryHackMe Pre-Security + Jr Pentester path
-- Get eJPT certified (2027)
-- Land cybersecurity internship after Year 2
-- Get OSCP certified (2028-29)
-- Work at a top-tier cybersecurity company
+- ✅ Complete Google Cybersecurity Certificate
+- ✅ Finish TryHackMe Pre-Security
+- 🔄 Complete OverTheWire Bandit
+- 📌 Complete PicoCTF challenges
+- 📌 Get eJPT certified (2027)
+- 📌 Land cybersecurity internship after Year 2
+- 📌 Get OSCP certified (2028)
+- 📌 Work abroad at a top-tier cybersecurity company
