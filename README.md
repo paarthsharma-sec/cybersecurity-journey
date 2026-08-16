@@ -9,7 +9,7 @@ journey — notes, writeups, projects and progress tracking.
 |----------|--------|----------|
 | Google Cybersecurity Certificate | ✅ Completed | 9/9 |
 | TryHackMe Pre-Security | ✅ Completed | Free Tier |
-| OverTheWire Bandit | 🔄 In Progress | Level 1 |
+| OverTheWire Bandit | ✅ Completed | Level 0-15 |
 | PicoCTF | 📌 Upcoming | — |
 | eJPT | 📌 Upcoming | 2027 |
 
