@@ -13,6 +13,8 @@
 - Traversal, Insertion, Deletion ✅
 - Linear Search ✅
 - Binary Search ✅
+-  Prefix Sum ✅
+- Frequency Counting ✅
 
 ## LeetCode Solved
 - 26 — Remove Duplicates ✅
@@ -20,3 +22,8 @@
 - 704 — Binary Search ✅
 - 35 — Search Insert Position ✅
 - 278 — First Bad Version ✅
+- 303 — Range Sum Query | Easy | ✅ |
+- 1480 — Running Sum | Easy | ✅ |
+- 217 — Contains Duplicate | Easy | ✅ |
+- 242 — Valid Anagram | Easy | ✅ |
+- 1 — Two Sum | Easy | ✅ |
