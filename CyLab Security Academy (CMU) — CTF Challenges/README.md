@@ -5,7 +5,7 @@
 ## Progress Tracker
 | Category | Status | Completed |
 |----------|--------|-----------|
-| General Skills | 🔄 In Progress | 1/? |
+| General Skills | 🔄 In Progress | 2/? |
 | Cryptography | 📌 Upcoming | 0 |
 | Web Exploitation | 📌 Upcoming | 0 |
 | Forensics | 📌 Upcoming | 0 |
@@ -22,4 +22,12 @@
 - Always check file contents first before anything complex
 - Flag format is always picoCTF{...}
 
----
+
+### Challenge 2 — Wave a Flag
+**Difficulty:** Easy
+**What I did:** Downloaded the binary file, ran it with -h flag
+**Command Used:** ./warm -h
+**What I Learned:**
+- Binary files need execute permission to run
+- -h or --help shows available options for any program
+- Always try -h on unknown binaries in CTF challenges
