@@ -1,6 +1,5 @@
 # CyLab Security Academy — CTF Writeups
 ### Platform: Carnegie Mellon University (CMU)
-### Profile: play.picoctf.org
 
 ## Progress Tracker
 | Category | Status | Completed |
@@ -27,6 +26,8 @@
 **Command Used:** ./warm -h
 **What I Learned:**
 - Binary files need execute permission to run
+- -h or --help shows available options for any program
+- Always try -h on unknown binaries in CTF challenges
 
 
 ### Challenge 3 — Python Wrangling
@@ -35,5 +36,4 @@
 - Python scripts take arguments from command line
 - sys.argv handles command line arguments in Python
 - Always read the script before running it
-- -h or --help shows available options for any program
-- Always try -h on unknown binaries in CTF challenges
+
