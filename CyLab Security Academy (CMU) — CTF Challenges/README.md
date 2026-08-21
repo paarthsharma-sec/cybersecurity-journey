@@ -4,7 +4,7 @@
 ## Progress Tracker
 | Category | Status | Completed |
 |----------|--------|-----------|
-| General Skills | 🔄 In Progress | 3/? |
+| General Skills | 🔄 In Progress | 4/? |
 | Cryptography | 📌 Upcoming | 0 |
 | Web Exploitation | 📌 Upcoming | 0 |
 | Forensics | 📌 Upcoming | 0 |
