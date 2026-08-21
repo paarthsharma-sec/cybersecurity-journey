@@ -37,3 +37,14 @@
 - sys.argv handles command line arguments in Python
 - Always read the script before running it
 
+
+### Challenge 4 — Nice netcat
+**What I did:** Connected to server using netcat, 
+received ASCII numbers, used Python to convert 
+them to readable characters
+**Command Used:** nc mercury.picoctf.net 7449
+**What I Learned:**
+- netcat (nc) connects to remote servers and ports
+- Servers can send data in ASCII number format
+- chr() in Python converts numbers to characters
+- ASCII encoding is commonly used in CTF challenges
