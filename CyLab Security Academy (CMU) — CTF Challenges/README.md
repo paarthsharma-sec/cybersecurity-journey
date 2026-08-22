@@ -4,7 +4,7 @@
 ## Progress Tracker
 | Category | Status | Completed |
 |----------|--------|-----------|
-| General Skills | 🔄 In Progress | 4/? |
+| General Skills | 🔄 In Progress | 5/? |
 | Cryptography | 📌 Upcoming | 0 |
 | Web Exploitation | 📌 Upcoming | 0 |
 | Forensics | 📌 Upcoming | 0 |
@@ -48,3 +48,12 @@ them to readable characters
 - Servers can send data in ASCII number format
 - chr() in Python converts numbers to characters
 - ASCII encoding is commonly used in CTF challenges
+
+### Challenge 5 — Static ain't always noise
+**What I did:** Analyzed a binary file and script 
+to extract the flag
+**What I Learned:**
+- Static files can contain readable strings
+- strings command extracts readable text from binaries
+- grep helps filter specific patterns from output
+- Not all noise is useless — hidden data exists in files
