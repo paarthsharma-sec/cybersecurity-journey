@@ -15,6 +15,7 @@
 - Binary Search ✅
 -  Prefix Sum ✅
 - Frequency Counting ✅
+- - Two Pointer Technique ✅
 
 ## LeetCode Solved
 - 26 — Remove Duplicates ✅
@@ -27,3 +28,6 @@
 - 217 — Contains Duplicate | Easy | ✅ |
 - 242 — Valid Anagram | Easy | ✅ |
 - 1 — Two Sum | Easy | ✅ |
+- 167 — Two Sum II | Easy | ✅ |
+- 125 — Valid Palindrome | Easy | ✅ |
+- 11 — Container With Most Water | Medium | ✅ |
