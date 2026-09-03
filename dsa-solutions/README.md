@@ -15,7 +15,8 @@
 - Binary Search ✅
 -  Prefix Sum ✅
 - Frequency Counting ✅
-- - Two Pointer Technique ✅
+- Two Pointer Technique ✅
+- Sliding Window Basics ✅
 
 ## LeetCode Solved
 - 26 — Remove Duplicates ✅
@@ -31,3 +32,6 @@
 - 167 — Two Sum II | Easy | ✅ |
 - 125 — Valid Palindrome | Easy | ✅ |
 - 11 — Container With Most Water | Medium | ✅ |
+- 121 — Buy Sell Stock | Easy | ✅ |
+- 643 — Max Average Subarray | Easy | ✅ |
+- 3 — Longest Substring | Medium | ✅ |
