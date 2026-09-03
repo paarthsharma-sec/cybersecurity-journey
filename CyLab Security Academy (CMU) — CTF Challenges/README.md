@@ -5,7 +5,7 @@
 | Category | Status | Completed |
 |----------|--------|-----------|
 | General Skills | ✅ Completed | 20/20 |
-| Cryptography | 📌 Upcoming | 0 |
+| Cryptography | 🔄 In Progress | 5/20 |
 | Web Exploitation | 📌 Upcoming | 0 |
 | Forensics | 📌 Upcoming | 0 |
 
@@ -205,3 +205,49 @@ deleted file from commit history containing flag
 - git log --all shows complete commit history
 - Deleted files recoverable through git history
 - Critical forensics skill for real investigations
+
+
+- ## Cryptography
+- 
+### Challenge 1 — Mod 26
+**What I did:** Applied ROT13 cipher to decode the flag
+**What I Learned:**
+- ROT13 shifts letters by 13 positions
+- tr command handles ROT13 in terminal
+- Caesar cipher family is common in CTF
+
+---
+
+### Challenge 2 — Easy1
+**What I did:** Used Vigenere cipher table to decode message
+**What I Learned:**
+- Vigenere cipher uses a keyword for encoding
+- Table lookup decodes each character
+- Polyalphabetic ciphers are harder than Caesar
+
+---
+
+### Challenge 3 — Caesar
+**What I did:** Brute forced Caesar cipher shifts to find flag
+**What I Learned:**
+- Caesar cipher shifts alphabet by fixed number
+- Only 25 possible shifts — easy to brute force
+- frequency analysis helps identify shift
+
+---
+
+### Challenge 4 — 13
+**What I did:** Decoded ROT13 encoded flag
+**What I Learned:**
+- ROT13 is self-inverse — encode and decode same operation
+- echo "text" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+- Very common encoding in CTF challenges
+
+---
+
+### Challenge 5 — The Numbers
+**What I did:** Converted numbers to letters using A=1 Z=26
+**What I Learned:**
+- Simple substitution cipher using number positions
+- A=1, B=2... Z=26 is classic beginner crypto
+- Pattern recognition key in cryptography
