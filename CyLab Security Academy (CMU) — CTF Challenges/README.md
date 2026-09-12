@@ -251,3 +251,154 @@ deleted file from commit history containing flag
 - Simple substitution cipher using number positions
 - A=1, B=2... Z=26 is classic beginner crypto
 - Pattern recognition key in cryptography
+
+
+### Challenge 6 — Substitution0
+**What I did:** Decoded substitution cipher 
+by analyzing letter frequency patterns
+**What I Learned:**
+- Substitution ciphers replace each letter consistently
+- Frequency analysis breaks substitution ciphers
+- E, T, A are most common letters in English
+
+---
+
+### Challenge 7 — Substitution1
+**What I did:** Partially decoded substitution 
+cipher using known plaintext patterns
+**What I Learned:**
+- Known plaintext attacks use partial information
+- Word patterns help identify substitutions
+- Common words like "the" reveal multiple letters
+
+---
+
+### Challenge 8 — Substitution2
+**What I did:** Completed full substitution 
+cipher decode using combined techniques
+**What I Learned:**
+- Combining frequency analysis and pattern matching
+- Full alphabet mapping breaks any substitution cipher
+- Systematic approach beats random guessing
+
+---
+
+### Challenge 9 — Credstuff
+**What I did:** Used wordlist to crack 
+hashed credentials from leaked database
+**What I Learned:**
+- Real databases store hashed passwords
+- Wordlist attacks match common passwords to hashes
+- MD5 hashes are easily crackable with wordlists
+- Credential stuffing is real world attack vector
+
+---
+
+### Challenge 10 — Morse Code
+**What I did:** Decoded audio file 
+containing morse code to find flag
+**What I Learned:**
+- Morse code represents letters as dots and dashes
+- Audio files can contain encoded messages
+- Online morse decoders handle audio conversion
+
+---
+
+### Challenge 11 — Dachshund Attacks
+**What I did:** Exploited weak RSA key using 
+Wiener attack to recover private key
+**What I Learned:**
+- RSA security depends on large prime numbers
+- Wiener attack breaks RSA with small private exponents
+- Weak RSA keys are vulnerable to mathematical attacks
+
+---
+
+### Challenge 12 — Mini RSA
+**What I did:** Exploited small RSA exponent 
+to decrypt ciphertext without private key
+**What I Learned:**
+- Small public exponents make RSA vulnerable
+- Cube root attack works when exponent is 3
+- Proper RSA requires large random exponents
+
+---
+
+### Challenge 13 — Basic Mod1
+**What I did:** Decoded message using 
+modulo 37 operation to get plaintext
+**What I Learned:**
+- Modular arithmetic is foundation of cryptography
+- mod operation finds remainder after division
+- Character mapping with modulo creates simple ciphers
+
+---
+
+### Challenge 14 — Basic Mod2
+**What I did:** Decoded message using 
+modular inverse operation
+**What I Learned:**
+- Modular inverse reverses modular multiplication
+- Extended Euclidean algorithm finds modular inverse
+- More complex than Mod1 but same concept
+
+---
+
+### Challenge 15 — Pixelated
+**What I did:** Combined two image shares 
+using XOR to reveal hidden flag
+**What I Learned:**
+- Visual cryptography splits secret into shares
+- XOR operation combines shares to reveal secret
+- Images can hide information visually
+
+---
+
+### Challenge 16 — New Caesar
+**What I did:** Decoded custom Caesar variant 
+using base16 encoding and shifted alphabet
+**What I Learned:**
+- Caesar variants use different alphabets or bases
+- base16 encoding uses only letters a-p
+- Custom ciphers combine multiple techniques
+
+---
+
+### Challenge 17 — Vigenere
+**What I did:** Decoded Vigenere cipher 
+by finding the key through Kasiski examination
+**What I Learned:**
+- Vigenere uses repeating keyword for encoding
+- Kasiski examination finds key length
+- Index of coincidence confirms key length
+
+---
+
+### Challenge 18 — Railfence
+**What I did:** Decoded railfence cipher 
+by reconstructing the zigzag pattern
+**What I Learned:**
+- Railfence writes message in zigzag across rails
+- Number of rails is the key
+- Transposition ciphers rearrange rather than replace
+
+---
+
+### Challenge 19 — b00tl3gRSA2
+**What I did:** Exploited weak RSA with 
+small prime difference to factor the modulus
+**What I Learned:**
+- RSA primes must be far apart in value
+- Fermat factorization works when primes are close
+- Strong RSA requires carefully chosen large primes
+
+---
+
+### Challenge 20 — b00tl3gRSA3
+**What I did:** Exploited RSA with common 
+factor between two different moduli
+**What I Learned:**
+- Sharing prime factors between RSA keys is catastrophic
+- GCD attack finds common factors instantly
+- Each RSA key must use completely unique primes
+
