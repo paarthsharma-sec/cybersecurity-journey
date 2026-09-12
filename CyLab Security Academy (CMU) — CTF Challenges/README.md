@@ -5,7 +5,7 @@
 | Category | Status | Completed |
 |----------|--------|-----------|
 | General Skills | ✅ Completed | 20/20 |
-| Cryptography | 🔄 In Progress | 5/20 |
+| Cryptography | ✅ Completed | 20/20 |
 | Web Exploitation | 📌 Upcoming | 0 |
 | Forensics | 📌 Upcoming | 0 |
 
