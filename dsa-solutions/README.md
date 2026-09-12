@@ -17,6 +17,9 @@
 - Frequency Counting ✅
 - Two Pointer Technique ✅
 - Sliding Window Basics ✅
+- Kadane's Algorithm ✅
+- Problem Solving Patterns + Revision ✅
+
 
 ## LeetCode Solved
 - 26 — Remove Duplicates ✅
@@ -35,3 +38,10 @@
 - 121 — Buy Sell Stock | Easy | ✅ |
 - 643 — Max Average Subarray | Easy | ✅ |
 - 3 — Longest Substring | Medium | ✅ |
+- 53 — Maximum Subarray | Medium | ✅ |
+- 152 — Maximum Product Subarray | Medium | ✅ |
+- 88 — Merge Sorted Array | Easy | ✅ |
+- 189 — Rotate Array | Medium | ✅ |
+- 238 — Product Except Self | Medium | ✅ |
+
+### Topic 2 — Arrays ✅ Complete
