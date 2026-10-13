@@ -6,7 +6,7 @@
 |----------|--------|-----------|
 | General Skills | ✅ Completed | 20/20 |
 | Cryptography | ✅ Completed | 20/20 |
-| Web Exploitation | 📌 Upcoming | 0 |
+| Web Exploitation | 🔄 In Progress | 5/20 |
 | Forensics | 📌 Upcoming | 0 |
 
 ---
@@ -402,3 +402,66 @@ factor between two different moduli
 - GCD attack finds common factors instantly
 - Each RSA key must use completely unique primes
 
+
+
+## Web Exploitation
+
+### Challenge 1 — Insp3ct0r
+**What I did:** Inspected HTML source code, 
+CSS and JavaScript files to find flag parts
+**Commands/Tools Used:** Browser Developer 
+Tools — F12
+**What I Learned:**
+- F12 opens browser developer tools
+- HTML source code can contain hidden information
+- Flags can be split across multiple files
+- Always inspect page source in web challenges
+
+---
+
+### Challenge 2 — Scavenger Hunt
+**What I did:** Found hidden files across 
+HTML, CSS, JS and robots.txt
+**Commands/Tools Used:** F12 + browser navigation
+**What I Learned:**
+- Websites have multiple hidden files
+- robots.txt tells search engines what to hide
+- .htaccess stores server configuration
+- Developers sometimes leave sensitive info in source
+
+---
+
+### Challenge 3 — Where are the Robots
+**What I did:** Checked robots.txt file 
+to find hidden directory containing flag
+**Commands/Tools Used:** /robots.txt in URL
+**What I Learned:**
+- robots.txt is publicly accessible on any website
+- It reveals directories owners want hidden from search
+- Always check robots.txt in web CTF challenges
+- Real websites leak sensitive paths this way
+
+---
+
+### Challenge 4 — dont-use-client-side
+**What I did:** Inspected JavaScript source 
+to find password validation logic and extract flag
+**Commands/Tools Used:** F12 → Sources tab
+**What I Learned:**
+- Never trust client side validation
+- JavaScript code is visible to anyone
+- Passwords should never be stored in client code
+- Real security must be server side
+
+---
+
+### Challenge 5 — logon
+**What I did:** Bypassed authentication by 
+manipulating cookies in browser
+**Commands/Tools Used:** F12 → Application 
+→ Cookies
+**What I Learned:**
+- Cookies store session and authentication data
+- Weak cookie values can be manipulated
+- admin=True cookie bypass is real vulnerability
+- Always validate authentication server side
