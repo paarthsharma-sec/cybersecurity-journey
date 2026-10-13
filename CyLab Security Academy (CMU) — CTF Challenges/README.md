@@ -6,7 +6,7 @@
 |----------|--------|-----------|
 | General Skills | ✅ Completed | 20/20 |
 | Cryptography | ✅ Completed | 20/20 |
-| Web Exploitation | 🔄 In Progress | 5/20 |
+| Web Exploitation | 🔄 In Progress | 10/20 |
 | Forensics | 📌 Upcoming | 0 |
 
 ---
@@ -465,3 +465,61 @@ manipulating cookies in browser
 - Weak cookie values can be manipulated
 - admin=True cookie bypass is real vulnerability
 - Always validate authentication server side
+
+
+### Challenge 6 — picobrowser
+**What I did:** Changed browser User-Agent 
+header to "picobrowser" to access the page
+**Commands/Tools Used:** F12 → Network tab 
+→ modified User-Agent header
+**What I Learned:**
+- Servers check User-Agent to identify browsers
+- User-Agent can be manipulated easily
+- Never rely on User-Agent for security
+- Curl -A flag changes User-Agent in terminal
+
+---
+
+### Challenge 7 — Irish-Name-Repo 1
+**What I did:** Used basic SQL injection 
+to bypass login authentication
+**Payload Used:** admin' --
+**What I Learned:**
+- SQL injection manipulates database queries
+- -- comments out rest of SQL query
+- Single quote breaks out of string context
+- Most common web vulnerability in real world
+
+---
+
+### Challenge 8 — Irish-Name-Repo 2
+**What I did:** Used SQL injection with 
+encoded characters to bypass filters
+**Payload Used:** admin' --  (encoded)
+**What I Learned:**
+- Developers add filters to block basic SQLi
+- Encoding bypasses simple character filters
+- Always try encoding when basic payload fails
+- Filter evasion is real penetration testing skill
+
+---
+
+### Challenge 9 — Irish-Name-Repo 3
+**What I did:** Used blind SQL injection 
+to extract information without direct output
+**What I Learned:**
+- Blind SQLi works when no error is shown
+- Boolean based blind SQLi uses true/false responses
+- More complex but same fundamental concept
+- Real world databases often use blind SQLi protection
+
+---
+
+### Challenge 10 — It is my Birthday
+**What I did:** Exploited MD5 hash collision 
+to upload two different files with same hash
+**What I Learned:**
+- MD5 is cryptographically broken
+- Hash collisions allow different files same hash
+- Never use MD5 for security critical applications
+- SHA-256 or higher should be used instead
