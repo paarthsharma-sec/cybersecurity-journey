@@ -6,7 +6,7 @@
 |----------|--------|-----------|
 | General Skills | ✅ Completed | 20/20 |
 | Cryptography | ✅ Completed | 20/20 |
-| Web Exploitation | 🔄 In Progress | 10/20 |
+| Web Exploitation | ✅ Completed | 20/20 |
 | Forensics | 📌 Upcoming | 0 |
 
 ---
@@ -523,3 +523,118 @@ to upload two different files with same hash
 - Hash collisions allow different files same hash
 - Never use MD5 for security critical applications
 - SHA-256 or higher should be used instead
+
+- ### Challenge 11 — Super Serial
+**What I did:** Exploited PHP deserialization 
+vulnerability to get remote code execution
+**What I Learned:**
+- Deserialization converts data back to objects
+- Unsafe deserialization allows code execution
+- PHP unserialize() is dangerous with user input
+- Always validate serialized data server side
+
+---
+
+### Challenge 12 — Most Cookies
+**What I did:** Forged session cookie using 
+Flask secret key to gain admin access
+**What I Learned:**
+- Flask uses secret key to sign session cookies
+- Weak secret keys can be brute forced
+- Cookie forgery gives unauthorized access
+- Strong random secret keys are essential
+
+---
+
+### Challenge 13 — Forbidden Paths
+**What I did:** Used path traversal attack 
+to access files outside web root directory
+**Payload Used:** ../../../../etc/passwd
+**What I Learned:**
+- Path traversal moves outside intended directory
+- ../ goes up one directory level
+- Servers must validate and sanitize file paths
+- Common vulnerability in real web applications
+
+---
+
+### Challenge 14 — SQL Direct
+**What I did:** Connected directly to PostgreSQL 
+database and queried it to find the flag
+**Commands Used:** psql connection commands
+**What I Learned:**
+- PostgreSQL is common production database
+- Direct database access bypasses web layer
+- SQL SELECT statements retrieve data directly
+- Database credentials must be strongly protected
+
+---
+
+### Challenge 15 — Cookies
+**What I did:** Manipulated cookie value 
+by incrementing number to find correct admin cookie
+**Commands/Tools Used:** F12 → Application 
+→ Cookies
+**What I Learned:**
+- Predictable cookie values are dangerous
+- Sequential cookie IDs are easy to enumerate
+- Cookie values should be random and unpredictable
+- Always test sequential values in CTF challenges
+
+---
+
+### Challenge 16 — Web Gauntlet
+**What I did:** Bypassed multiple SQL injection 
+filters across 5 rounds to login as admin
+**What I Learned:**
+- Developers add filters to block SQL injection
+- Each filter can be bypassed with different techniques
+- LIKE operator can replace = in some cases
+- Persistent filter evasion is advanced SQLi skill
+
+---
+
+### Challenge 17 — Java Code Analysis
+**What I did:** Analyzed Java source code 
+to find JWT secret and forge admin token
+**What I Learned:**
+- JWT tokens contain encoded user information
+- Weak JWT secrets can be exploited
+- Source code review reveals security flaws
+- Never hardcode secrets in application code
+
+---
+
+### Challenge 18 — JAuth
+**What I did:** Exploited JWT vulnerability 
+by changing algorithm to none to bypass verification
+**What I Learned:**
+- JWT algorithm none attack bypasses signature check
+- Some libraries accept unsigned tokens
+- Always explicitly validate JWT algorithm
+- alg:none is a critical JWT vulnerability
+
+---
+
+### Challenge 19 — SOAP
+**What I did:** Exploited XXE vulnerability 
+in SOAP XML request to read server files
+**Payload Used:** XML external entity injection
+**What I Learned:**
+- XXE injects malicious XML external entities
+- SOAP services process XML input
+- XXE can read local files from server
+- XML parsers must disable external entities
+
+---
+
+### Challenge 20 — Search Source
+**What I did:** Searched through JavaScript 
+source files to find hidden flag
+**Commands/Tools Used:** F12 → Sources → 
+Search all files
+**What I Learned:**
+- Sensitive data sometimes left in JS files
+- Browser search across all sources finds hidden data
+- Developers must never leave flags or secrets in JS
+- Always search all source files in web challenges
