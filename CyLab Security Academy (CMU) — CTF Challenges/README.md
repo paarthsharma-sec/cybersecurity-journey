@@ -7,8 +7,7 @@
 | General Skills | ✅ Completed | 20/20 |
 | Cryptography | ✅ Completed | 20/20 |
 | Web Exploitation | ✅ Completed | 20/20 |
-| Forensics | 🔄 In Progress | 5/10 |
-
+| Forensics | ✅ Completed | 10/10 |
 ---
 
 ## General Skills
@@ -699,3 +698,62 @@ PowerPoint file macros to find flag
 - Macros can contain hidden malicious code
 - strings command finds readable text in binary
 - Office macro analysis is real forensics skill
+
+
+### Challenge 6 — Sleuthkit Intro
+**What I did:** Used Sleuthkit tools to 
+analyze disk image and find hidden flag
+**Commands Used:** mmls, fls, icat
+**What I Learned:**
+- Sleuthkit analyzes disk images forensically
+- mmls shows partition layout of disk
+- fls lists files in filesystem
+- icat extracts files by inode number
+
+---
+
+### Challenge 7 — Disk, disk, sleuth
+**What I did:** Mounted disk image and 
+searched through files to find hidden flag
+**Commands Used:** fls, grep, icat
+**What I Learned:**
+- Disk images contain complete filesystem copies
+- grep searches recursively through all files
+- Deleted files can still exist in disk images
+- Real forensics investigators analyze disk images
+
+---
+
+### Challenge 8 — Wireshark twoo twooo two twoo
+**What I did:** Filtered network capture 
+to find flag hidden in DNS queries
+**Commands Used:** Wireshark DNS filter
+**What I Learned:**
+- DNS queries can be used for data exfiltration
+- Attackers hide data in DNS traffic
+- Wireshark filters isolate specific protocols
+- DNS exfiltration is real attack technique
+
+---
+
+### Challenge 9 — Eavesdrop
+**What I did:** Analyzed TCP stream in 
+Wireshark to find decryption instructions and flag
+**Commands Used:** Follow TCP Stream in Wireshark
+**What I Learned:**
+- TCP streams show complete conversations
+- Unencrypted protocols reveal sensitive data
+- openssl commands decrypt captured data
+- Always use encrypted protocols in real systems
+
+---
+
+### Challenge 10 — Operation Oni
+**What I did:** Analyzed disk image to 
+find SSH private key and login to server
+**Commands Used:** Sleuthkit + SSH
+**What I Learned:**
+- Private keys stored on disk are recoverable
+- Forensics and offensive security overlap
+- Recovered credentials enable further access
+- Sensitive files must be securely deleted
