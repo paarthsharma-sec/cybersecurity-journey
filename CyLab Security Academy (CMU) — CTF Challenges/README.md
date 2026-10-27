@@ -7,7 +7,7 @@
 | General Skills | ✅ Completed | 20/20 |
 | Cryptography | ✅ Completed | 20/20 |
 | Web Exploitation | ✅ Completed | 20/20 |
-| Forensics | 📌 Upcoming | 0 |
+| Forensics | 🔄 In Progress | 5/10 |
 
 ---
 
@@ -638,3 +638,64 @@ Search all files
 - Browser search across all sources finds hidden data
 - Developers must never leave flags or secrets in JS
 - Always search all source files in web challenges
+
+
+## Forensics
+
+### Challenge 1 — Information
+**What I did:** Extracted hidden flag from 
+image metadata using exiftool
+**Commands Used:** exiftool image.jpg
+**What I Learned:**
+- Images contain metadata like GPS, camera, comments
+- exiftool reads all metadata from files
+- Sensitive information can hide in metadata
+- Always check metadata in forensics challenges
+
+---
+
+### Challenge 2 — Matryoshka doll
+**What I did:** Extracted multiple images 
+hidden inside each other using binwalk
+**Commands Used:** binwalk -e image.jpg
+**What I Learned:**
+- Files can be hidden inside other files
+- binwalk detects and extracts embedded files
+- Steganography hides data inside innocent files
+- Multiple extraction layers like Russian dolls
+
+---
+
+### Challenge 3 — tunn3l v1s10n
+**What I did:** Fixed corrupted BMP file 
+header to reveal the hidden image and flag
+**Commands Used:** hexedit, xxd
+**What I Learned:**
+- File headers define file format and structure
+- Corrupted headers make files unreadable
+- Hex editors allow manual file repair
+- Understanding file structure is core forensics skill
+
+---
+
+### Challenge 4 — Wireshark doo dooo do doo
+**What I did:** Analyzed network packet 
+capture to find flag in HTTP traffic
+**Commands Used:** Wireshark filters
+**What I Learned:**
+- Wireshark captures and analyzes network traffic
+- HTTP traffic is unencrypted and readable
+- Follow TCP stream shows full conversation
+- Network forensics reveals communication content
+
+---
+
+### Challenge 5 — MacroHard WeakEdge
+**What I did:** Extracted hidden data from 
+PowerPoint file macros to find flag
+**Commands Used:** unzip, strings
+**What I Learned:**
+- Office files are ZIP archives internally
+- Macros can contain hidden malicious code
+- strings command finds readable text in binary
+- Office macro analysis is real forensics skill
